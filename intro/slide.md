@@ -1,26 +1,21 @@
 !SLIDE 
 
-# How HTTP Solved (almost) All Your Performance Problems 10 Years Ago
+# How HTTP Solved All Your Performance Problems 10 Years Ago
 ## Paul Sadauskas
+## MWRC 2010
 
-### psadauskas@gmail.com
-### github.com/paul
+!SLIDE 
+
+# Me
+
+## github.com/paul
+## @theamazingrando
+## psadauskas@gmail.com
 
 !SLIDE
 
-# HTTP Spec
-## RFC 2616
+![Absolute Performance, Inc](api.png)
 
-[picture of spec]
-
-!SLIDE smbullets incremental
-
-# Vocab Test!
-
- * Entity: information transferred as a payload of a request or response
- * Resource: service identified by a URI
- * Representation: Entity of a Resource. May be multiple Representations per Resource.
- * User Agent: client program that establishes requests.
- * Server: Anything that accepts HTTP connections
- * Origin Server: The Server on which a given Resource resides (or is to be created).
+## Hardware & Application Monitoring
+### http://absolute-performance.com
 
