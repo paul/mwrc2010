@@ -1,5 +1,7 @@
 [
   {"section":"intro"},
   {"section":"history"},
-  {"section":"caching"}
+  {"section":"persistence"},
+  {"section":"caching"},
+  {"section":"proxy"}
 ]

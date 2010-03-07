@@ -47,9 +47,9 @@
 # January 1996
 
  * First draft of HTTP/1.1 in RFC 2068
+ * Persistent Connections
  * Hierarchical proxies
  * Caching
- * Persistent Connections
  * Virtual Hosts
 
 !SLIDE bullets
