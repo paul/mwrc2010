@@ -1,0 +1,34 @@
+
+body {
+  font-family: Corbel, "DejaVu Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, sans-serif;
+}
+
+pre {
+  font-family: Consolas, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+  font-size: 1.5em
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.bullets ul {
+  text-indent: 0em;
+}
+
+.bullets ul li {
+  text-align: left;
+}
+
+pre.sh_sourceCode .sh_request {
+  color: darkgreen;
+}
+
+pre.sh_sourceCode .sh_response {
+  color: darkblue;
+}
+
+pre.sh_sourceCode .sh_important {
+  color: darkred;
+  font-weight: bold;
+}
