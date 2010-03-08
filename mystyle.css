@@ -8,8 +8,17 @@ pre {
   font-size: 1.5em
 }
 
+p code, li code {
+  font-size: 140%
+}
+
 h1 {
   font-size: 4em;
+}
+
+blockquote {
+  font-size: 3em;
+  font-style: italic;
 }
 
 .bullets ul {
