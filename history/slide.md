@@ -2,13 +2,6 @@
 
 # History
 
-!SLIDE bullets
-
-# 1990
-
- * Tim Berners-Lee proposes "World Wide Web" of hyperlinked documents
- * Documents delivered over HyperText Transfer Protocol, later named HTTP/0.9
-
 !SLIDE 
 
 # HTTP/0.9 Example
@@ -17,15 +10,6 @@
     > GET http://mrwc2010.com/sombrero.xbm
 
 ![Darth Vader Wearing a Sombrero](darth_sombrero_8.jpg)
-
-!SLIDE bullets
-
-# 1990-1996
-
- * HTTP development continues ad-hoc
- * Servers and clients extend the protocal with additional features
- * Request headers and new methods: `HEAD`, `POST`
- * HTTP/1.0 formalized in Feb 1996 as RFC 1045
 
 !SLIDE
 
@@ -41,23 +25,6 @@
     < Content-Type: image/gif
 
 ![Darth Vader Wearing a Sombrero](darth_sombrero_16.jpg)
-
-!SLIDE bullets
-
-# January 1996
-
- * First draft of HTTP/1.1 in RFC 2068
- * Persistent Connections
- * Hierarchical proxies
- * Caching
- * Virtual Hosts
-
-!SLIDE bullets
-
-# June 1999
-
- * HTTP/1.1 spec finalized in RFC 2616
- * Transforms HTTP to a full-featured application protocol
 
 !SLIDE
 
