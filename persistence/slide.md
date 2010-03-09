@@ -1,9 +1,5 @@
 !SLIDE
 
-# (Male) Performance Enhancing Features in HTTP/1.1
-
-!SLIDE
-
 # Persistent Connections
 
 !SLIDE center
