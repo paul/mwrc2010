@@ -11,6 +11,7 @@
 ## github.com/paul
 ## @theamazingrando
 ## psadauskas@gmail.com
+## http://theamazingrando.com/blog
 
 !SLIDE
 

@@ -3,5 +3,7 @@
   {"section":"history"},
   {"section":"persistence"},
   {"section":"caching"},
-  {"section":"proxy"}
+  {"section":"proxy"},
+  {"section":"rest"},
+  {"section":"fin"}
 ]

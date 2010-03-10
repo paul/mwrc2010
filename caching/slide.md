@@ -296,9 +296,9 @@
     > Host: mwrc-2010.com
     > User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2) Gecko/20100207 Namoroka/3.6
     * Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-    * Accept-Language: en-us,en;q=0.5
+    > Accept-Language: en-us,en;q=0.5
     * Accept-Encoding: gzip,deflate
-    * Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    > Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
     * Cookie: session=Gk5Fi7jZdFYFMh30a6k%2FD3mB9uJAC9hCOMR3y8YebbutmRwG1pJ5ZG%2FXwsp3%0A&i8p%2FFqf1yRGT5D1L1B%2B1yKYXbZwxmieAURIeHTsW0hh5amoAH6wVVL0wVg47%0A&iK1lcQ48WX8%2B6JIxZcEN6xd2DUUprVGJ36BF7YJI6V7BtOIMFUQ%3D%0A
     > If-Modified-Since: Wed, 07 Oct 2009 23:24:24 GMT
     > If-None-Match: "a1da5d67748678a8da21ff4fe8243e70"
