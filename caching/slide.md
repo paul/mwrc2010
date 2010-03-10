@@ -23,6 +23,15 @@
 
 !SLIDE bullets
 
+# HTTP/1.1 Caching
+
+ * Expiration: `Expires` and `Cache-Control: max-age`
+ * Validation: `Last-Modified`, `Etag`, `Vary`
+ * Manipulate: `Cache-Control`
+
+
+!SLIDE bullets
+
 # Expiration
 
  * `Expires` header
