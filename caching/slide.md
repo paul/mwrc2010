@@ -2,6 +2,13 @@
 
 # Caching
 
+!SLIDE bullets
+
+# Caching Goals
+
+ * Reduce number of network round-trips. **Expiration**
+ * Reduce network bandwidth requirements. **Validation**
+
 !SLIDE
 
 > “There are only two hard problems in Computer Science: cache invalidation and naming things.”
@@ -13,13 +20,6 @@
 # Terminology
 
 ![servers](servers.png)
-
-!SLIDE bullets
-
-# Caching Goals
-
- * Reduce number of network round-trips. **Expiration**
- * Reduce network bandwidth requirements. **Validation**
 
 !SLIDE bullets
 
