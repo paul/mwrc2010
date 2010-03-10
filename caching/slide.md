@@ -189,18 +189,16 @@
 # Handling Validation in Rails
 
     @@@ ruby
-    class MyController < ApplicationController
-      def show
-        @sombrero = Sombrero.find(params[:id])
+    def show
+      @sombrero = Sombrero.find(params[:id])
 
-        fresh_when(
-          :etag => @sombrero, 
-          :last_modified => @sombrero.updated_at, 
-          :public => true
-        )
+      fresh_when(
+        :etag => @sombrero, 
+        :last_modified => @sombrero.updated_at, 
+        :public => true
+      )
 
-        # render ...
-      end
+      # render ...
     end
 
 !SLIDE
@@ -208,15 +206,15 @@
 # Handling Validation in Rails (Advanced)
 
     @@@ ruby
-    class MyController < ApplicationController
-      def index
-        last_modified = Sombrero.max(:updated_at)
+    def index
+      last_modified = Sombrero.max(:updated_at)
 
-        if stale?(:last_modified => last_modified)
-          @sombreros = Sombrero.find_millions
+      if stale?(:last_modified => last_modified)
+        @sombreros = Sombrero.find_millions
 
-          # render ...
-        end
+        # render ...
+      else
+        head(304)
       end
     end
 
